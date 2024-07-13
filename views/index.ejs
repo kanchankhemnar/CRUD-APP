@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="/sytlesheets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="min-w-full min-h-full bg-zinc-900 p-10 text-white ">
+    <div class="nav mb-3">
+      <a href="/read" class=" border-2 border-zinc-600 p-2 rounded-lg m-4 mb-2">
+        <input class="cursor-pointer" type="button" value="read"></a>
+    </div>
+    <h1 class="text-3xl pb-4">Create User</h1>
+  <form action="/create" method="post">
+   
+      <input class="px-5 py-3  bg-transparent rounded-lg border-2 border-zinc-600 outline-none"  type="text" name="name" id="" placeholder="name">
+
+      <input class="px-5 py-3  bg-transparent rounded-lg border-2 border-zinc-600 outline-none"  type="text" name="email" id="" placeholder="email">
+
+      <input class="px-5 py-3 bg-transparent rounded-lg border-2 border-zinc-600 outline-none"  type="text" name="url" id="" placeholder="image url">
+
+      <input class="px-5 py-2  bg-blue-500 rounded-lg ml-3 " type="submit" value="Create User">
+      </div>
+  </form>
+</body>
+</html>
